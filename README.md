@@ -2,7 +2,7 @@
 
 <img src="./assets/login.png" height="auto" width="100%;" alt="login">
 
-<img src="./assets/escalacao.png" height="auto" width="100%;" alt="login">
+![escalacao](https://github.com/user-attachments/assets/9b3469b7-9005-4fdc-972b-2c1f500ccab5)
 
 ## Introdução 
 
