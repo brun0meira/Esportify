@@ -47,7 +47,7 @@ A aplicação oferece diversas funcionalidades interativas:
 
 <img src="./assets/chatbot.png" height="auto" width="100%;" alt="login">
 
-<img src="./assets/chatpartidaaovivo.png" height="auto" width="100%;" alt="chataovivo">
+<img src="./assets/chatMatchLive.png" height="auto" width="100%;" alt="login">
 
 
 ### Para os administradores
