@@ -161,6 +161,7 @@ const Welcome: React.FC = () => {
         setAuthorizationHeader(access_token);
         localStorage.setItem('access_token', access_token)
         localStorage.setItem('admin', (response.data).admin);
+        localStorage.setItem('user_id', (response.data).userId);
         setAuthenticated((response.data).admin);
         setLoggedInUserId((response.data).userId);
         navigate("/home", { replace: true })

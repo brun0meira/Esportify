@@ -1,8 +1,8 @@
-# Esportify
+# Esportify -> Desafio 1 e 2
 
 <img src="./assets/login.png" height="auto" width="100%;" alt="login">
 
-<img src="./assets/Screenshot from 2025-05-05 07-53-56.png" height="auto" width="100%;" alt="login">
+<img src="./assets/escalacao.png" height="auto" width="100%;" alt="login">
 
 ## Introdução 
 
@@ -36,6 +36,19 @@ A aplicação oferece diversas funcionalidades interativas:
   * Integrar redes sociais e interagir com perfis oficiais da FURIA — quanto mais interação, mais pontos.
 * **Conteúdo Exclusivo**: espaço onde os usuários podem trocar seus pontos por produtos oficiais e exclusivos da FURIA.
 * **Perfil**: centraliza os dados do fã e valida documentos como RG usando o Textract da AWS para autenticação.
+* **Chatbot Interativo**: assistente virtual disponível 24/7 que oferece:
+
+  1. Informações sobre os próximos jogos;
+  2. Resultados recentes das partidas;
+  3. Últimas notícias do time;
+  4. Link direto para a loja oficial;
+  5. Curiosidades e história da FURIA.
+* **Chat ao Vivo Durante Partidas**: espaço em tempo real onde os fãs podem comentar, reagir e se conectar com outros torcedores durante os jogos oficiais da FURIA.
+
+<img src="./assets/chatbot.png" height="auto" width="100%;" alt="login">
+
+<img src="./assets/chataovivo.png" height="auto" width="100%;" alt="login">
+
 
 ### Para os administradores
 
@@ -70,6 +83,7 @@ https://github.com/user-attachments/assets/24d5863f-e368-49f2-ae76-3d400214d4f4
 -   Prisma ORM
 -   Postgresql
 -   TypeScript
+-   Socket.io
     <br>
 
 ## Árvore de arquivos

@@ -6,6 +6,8 @@ import Diversity3Icon from '@mui/icons-material/Diversity3';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import ChatIcon from '@mui/icons-material/Chat';
+import ForumIcon from '@mui/icons-material/Forum';
 
 const SideBar: React.FC = () => {
     const [selectedItem, setSelectedItem] = useState<string>(() => {
@@ -49,6 +51,16 @@ const SideBar: React.FC = () => {
                 <hr style={{backgroundColor: selectedItem != 'Perfil' ? '#f5f5f5' : '#407BFF', border: selectedItem != 'Perfil' ? '1px solid #f5f5f5' : '1px solid #407BFF'}}></hr>
                 <AnalyticsIcon sx={{ color: selectedItem === 'Perfil' ? '#407BFF' : '#5C5F62' }} />
                 <p style={{ color: selectedItem === 'Perfil' ? '#407BFF' : '#5C5F62' }}>Perfil</p>
+            </SideBarItem>
+            <SideBarItem href='/chatbot' onClick={() => handleItemClick('ChatBot')}>
+                <hr style={{backgroundColor: selectedItem != 'ChatBot' ? '#f5f5f5' : '#407BFF', border: selectedItem != 'ChatBot' ? '1px solid #f5f5f5' : '1px solid #407BFF'}}></hr>
+                <ChatIcon sx={{ color: selectedItem === 'ChatBot' ? '#407BFF' : '#5C5F62' }} />
+                <p style={{ color: selectedItem === 'ChatBot' ? '#407BFF' : '#5C5F62' }}>ChatBot</p>
+            </SideBarItem>
+            <SideBarItem href='/chat' onClick={() => handleItemClick('Chat Ao Vivo')}>
+                <hr style={{backgroundColor: selectedItem != 'Chat Ao Vivo' ? '#f5f5f5' : '#407BFF', border: selectedItem != 'Chat Ao Vivo' ? '1px solid #f5f5f5' : '1px solid #407BFF'}}></hr>
+                <ForumIcon sx={{ color: selectedItem === 'Chat Ao Vivo' ? '#407BFF' : '#5C5F62' }} />
+                <p style={{ color: selectedItem === 'Chat Ao Vivo' ? '#407BFF' : '#5C5F62' }}>Chat Ao Vivo</p>
             </SideBarItem>
             {isAdmin && (
             <>

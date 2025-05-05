@@ -6,7 +6,8 @@ import { AtGuard } from './common/guards';
 import { PrismaModule } from './prisma/prisma.module';
 import { UserModule } from './user/user.module';
 import { TextractModule } from './textract/textract.module';
-
+import { ChatModule } from './chat/chat.module';
+import { ChatbotModule } from './chatbot/chatbot.module';
 
 @Module({
   imports: [
@@ -14,6 +15,8 @@ import { TextractModule } from './textract/textract.module';
     AuthModule,
     UserModule,
     TextractModule,
+    ChatModule,
+    ChatbotModule,
     ConfigModule.forRoot({ isGlobal: true }),
   ],
   providers: [{ provide: APP_GUARD, useClass: AtGuard }],

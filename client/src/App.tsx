@@ -1,7 +1,6 @@
 import GlobalStyles from './styles/GlobalStyles';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-// Login and Register pages
 import Welcome from './pages/Welcome';
 import Home from './pages/Home';
 import News from './pages/News';
@@ -11,6 +10,10 @@ import UserAnalityc from './pages/UserAnalityc';
 import Perfil from './pages/Perfil';
 import Insta from './pages/Insta';
 import { Toaster } from 'react-hot-toast';
+import { ChatProvider } from './services/ChatProvider';
+import ChatPage from './pages/ChatPage/ChatPage';
+import ChatBot from './pages/ChatBot/chatBot';
+
 
 import { setAuthorizationHeader } from './axios';
 
@@ -21,7 +24,7 @@ if (token) {
 
 function App() {
 	return (
-		<>
+		<ChatProvider>
 			<Toaster />
 			<Routes>
 				<Route path="/" element={<Welcome />} />
@@ -32,9 +35,11 @@ function App() {
 				<Route path="/user-analityc" element={<UserAnalityc />} />
 				<Route path="/perfil" element={<Perfil />} />
 				<Route path="/insta" element={<Insta />} />
+				<Route path="/chat" element={<ChatPage />} />
+				<Route path="/chatbot" element={<ChatBot />} />
 			</Routes>
 			<GlobalStyles />
-		</>
+		</ChatProvider>
 	);
 }
 
