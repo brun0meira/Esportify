@@ -57,7 +57,8 @@ A aplicação oferece duas funcionalidades exclusivas:
 
 ## Video Demo
 
-[video_demo.mp4](./assets/video_demo.mp4)
+https://github.com/user-attachments/assets/24d5863f-e368-49f2-ae76-3d400214d4f4
+
 <br>
 
 ## Tecnologias
