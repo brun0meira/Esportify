@@ -150,4 +150,29 @@ Para executar o servidor backend, é necessário entrar no repositório do backe
   $ npm run start
 ```
 
+Para rodar o server localmente, é necessário criar um arquivo `.env` na raiz do projeto backend com as seguintes variáveis de ambiente:
+
+Copie o conteúdo de `.env.example` e preencha com os valores corretos (reais ou fictícios para testes locais).
+
+#### 📄 .env.example
+
+```dotenv
+# Conexão com o banco de dados (use a URL fornecida pelo seu provedor ou localmente)
+DATABASE_URL="prisma+postgres://usuario:senha@host:porta/nome_do_banco"
+
+# Ambiente (ex: development, production)
+NODE_ENV="development"
+
+# Configurações de autenticação JWT
+JWT_SECRET="sua-chave-jwt"
+EXPIRATION_TIME="900s"
+AT_SECRET="sua-chave-access-token"
+RT_SECRET="sua-chave-refresh-token"
+
+# Configurações da AWS (necessário apenas se usar integração com AWS)
+AWS_REGION="us-east-2"
+AWS_ACCESS_KEY_ID="sua-aws-access-key-id"
+AWS_SECRET_ACCESS_KEY="sua-aws-secret-access-key"
+```
+
 <br>
