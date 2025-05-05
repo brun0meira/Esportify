@@ -1,0 +1,23 @@
+export const players = {
+    lol: [
+      { name: "Guilherme Araújo Ruiz 'Guigo'", position: "Top", number: 1, avg: 82, games: 10, kills: 15, assists: 20, yellows: 1, reds: 0, nationality: "Brasil", joinDate: "Jan 2025", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYYMhU4zGMhU0bydf6sTsapwCwFUHHqeATMw&s" },
+      { name: "Pedro Seixas	'Tatu'", position: "Jungle", number: 2, avg: 80, games: 10, kills: 10, assists: 25, yellows: 0, reds: 0, nationality: "Brasil", joinDate: "Jan 2025", image: "https://medias.itatiaia.com.br/dims4/default/738b39d/2147483647/strip/true/crop/2048x1153+0+48/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe0%2Faa%2Fa563bb5b4b679b8ec1f1a1b4f0a3%2F54273563396-5744e5bab8-k.jpg" },
+      { name: "Arthur Peixoto Machado	'Tutsz'", position: "Mid", number: 3, avg: 85, games: 10, kills: 20, assists: 15, yellows: 0, reds: 0, nationality: "Brasil", joinDate: "May 2023", image: "https://noticias.maisesports.com.br/wp-content/uploads/2025/05/FURIA-Tutsz-2-1120x630.jpg" },
+      { name: "Andrey Saraiva	'Ayu'", position: "ADC", number: 4, avg: 78, games: 10, kills: 18, assists: 10, yellows: 2, reds: 0, nationality: "Brasil", joinDate: "Feb 2023", image: "https://noticias.maisesports.com.br/wp-content/uploads/2025/04/FURIA-Ayu-1120x630.jpg" },
+      { name: "Gabriel Dzelme de Oliveira	'JoJo'", position: "Support", number: 5, avg: 79, games: 10, kills: 5, assists: 30, yellows: 1, reds: 0, nationality: "Brasil", joinDate: "May 2024", image: "https://noticias.maisesports.com.br/wp-content/uploads/2024/06/FURIA-Jojo-1120x630.jpg" },
+    ],
+    cs2: [
+      { name: "Gabriel Toledo 'FalleN'", position: "AWPer", number: 10, avg: 77, games: 12, kills: 200, assists: 50, yellows: 0, reds: 0, nationality: "Brasil", joinDate: "July 2023", image: "https://s2-ge.glbimg.com/l_23B7SSspqQ6fO12rKzrBrtonE=/2048x0/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/0/9/wTzn0qT4yTNdgillgvOw/fallen-furia-cs-iem-katowice-2025.jpg" },
+      { name: "Danil Golubenko 'molodoy'", position: "Rifler", number: 11, avg: 79, games: 12, kills: 180, assists: 60, yellows: 1, reds: 0, nationality: "Kazakhstan", joinDate: "April 2025", image: "https://static.draft5.gg/news/2025/04/11161511/MOLODOY-2.jpg" },
+      { name: "Yuri Gomes dos Santos Boian 'Yuurih'", position: "IGL", number: 12, avg: 81, games: 12, kills: 150, assists: 70, yellows: 0, reds: 0, nationality: "Brasil", joinDate: "Nov 2017", image: "https://s2-ge.glbimg.com/tNfWL64ePf4bnLFRT7XKAnM5wv0=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/4/5/SnTqNVR2WrYB7RIs85bw/yuurih.jpg" },
+      { name: "Kaike Silva Cerato 'KSCERATO'", position: "Entry", number: 13, avg: 75, games: 12, kills: 170, assists: 40, yellows: 2, reds: 1, nationality: "Brasil", joinDate: "Feb 2018", image: "https://static.draft5.gg/news/2025/04/08085916/FURIA-KSCERATO-PGL-Bucharest-2025.jpg" },
+      { name: "Mareks Gaļinskis 'YEKINDAR'", position: "Support", number: 14, avg: 74, games: 12, kills: 140, assists: 80, yellows: 0, reds: 0, nationality: "Latvia", joinDate: "April 2025", image: "https://files.bo3.gg/uploads/image/78542/image/webp-7fea9ca759778b84c13d92da2e6945db.webp" },
+    ],
+    pubg: [
+      { name: "Guilherme Barbosa 'Guizeraa'", position: "Fragger", number: 20, avg: 80, games: 15, kills: 50, assists: 10, yellows: 1, reds: 0, nationality: "Brasil", joinDate: "April 2025", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI-KeVIvC3nmkNSEB6MVpOi1NCqqo443qz2Q&s" },
+      { name: "Leandro Gomes 'zkrakeN'", position: "Scout", number: 21, avg: 78, games: 15, kills: 40, assists: 15, yellows: 0, reds: 0, nationality: "Brasil", joinDate: "April 2025", image: "https://pbs.twimg.com/media/GpsbpFma8AIeVwi?format=jpg&name=large" },
+      { name: "Erick Aguiar 'Haven'", position: "Support", number: 23, avg: 76, games: 15, kills: 25, assists: 30, yellows: 0, reds: 0, nationality: "Brasil", joinDate: "April 2025", image: "https://wstatic-prod-boc.krafton.com/common/player/20250430/RiCxNLVY/haven.png" },
+      { name: "Francisco Possamai dos Santos 'possa'", position: "Sniper", number: 24, avg: 79, games: 15, kills: 45, assists: 12, yellows: 1, reds: 0, nationality: "Brasil", joinDate: "April 2025", image: "https://wstatic-prod-boc.krafton.com/common/player/20250430/ruExKpYn/possa.png" },
+    ],
+  };
+  
