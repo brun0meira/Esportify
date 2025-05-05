@@ -47,8 +47,7 @@ A aplicação oferece diversas funcionalidades interativas:
 
 <img src="./assets/chatbot.png" height="auto" width="100%;" alt="login">
 
-<img src="./assets/chatMatchLive.png" height="auto" width="100%;" alt="login">
-
+![chatMatchLive](https://github.com/user-attachments/assets/b0024de7-c8f5-4172-b987-7c0b885ee19b)
 
 ### Para os administradores
 
